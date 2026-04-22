@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Reading Mode</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <link rel="stylesheet" href="reader.css" />
+    <link rel="stylesheet" href="./all.min.css" />
+
+    <link rel="icon" type="image/png" href="../ss_web_logo.png" />
+  </head>
+  <body>
+    <div id="title">
+      <h1 id="chapter-title">Loading...</h1>
+      <button id="homeBtn">
+        <i class="fa-regular fa-house"></i>
+      </button>
+    </div>
+
+    <div id="content"></div>
+
+    <div class="bottom-bar">
+      <button id="backBtn-l" class="backBtn-l">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+
+      <button id="preBtn">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button id="saveBtn">
+        <i class="fa-regular fa-bookmark"></i>
+        <span id="saveBtnT">Mark</span>
+      </button>
+      <button id="nextBtn">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+      <button id="backBtn-r" class="backBtn-r">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+    </div>
+
+    <script src="reader.js"></script>
+  </body>
+</html>
