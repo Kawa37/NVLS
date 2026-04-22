@@ -1,50 +1,8 @@
 {
-  "shadow_slave": {
-    "chapters": 300,
-    "readingKey": "ss_reading",
-    "title": "Shadow Slave",
-    "htmlBtnId": "ssBtn"
-  },
-  "the_perfect_run": {
-    "chapters": 10,
-    "readingKey": "tpr_reading",
-    "title": "The Perfect Run",
-    "htmlBtnId": "tprBtn"
-  },
-  "others_summon_dragons_i_summon_legendary_knights": {
-    "chapters": 10,
-    "readingKey": "osdislk_reading",
-    "title": "Others Summon Dragons, I Summon Legendary Knights",
-    "htmlBtnId": "osdislkBtn"
-  },
-  "reverend_insanity": {
-    "chapters": 10,
-    "readingKey": "ri_reading",
-    "title": "Reverend Insanity",
-    "htmlBtnId": "riBtn"
-  },
-  "mother_of_learning":{
-    "chapters":10,
-    "readingKey":"mol_reading",
-    "title":"Mother of Learning",
-    "htmlBtnId":"molBtn"
-  },
-  "i_became_the_scoundrel_in_the_popular_dating_sim":{
-    "chapters":60,
-    "readingKey":"ibtsitpds_reading",
-    "title":"I Became The Scoundrel In The Popular Dating Sim",
-    "htmlBtnId":"ibtsitpdsBtn"
-  },
-  "ending_maker":{
-    "chapters":10,
-    "readingKey":"em_reading",
-    "title":"Ending maker",
-    "htmlBtnId":"emBtn"
-  },
-  "kidnapped_dragons":{
-    "chapters":12,
-    "readingKey":"kd_reading",
-    "title":"Kidnapped Dragons",
-    "htmlBtnId":"kd_reading"
+  "the name of the novel folder inside nvls/":{
+    "chapters":"the chapters u have as an int",
+    "readingKey":"a unique key to save the progress",
+    "title":"the title of the novel to show in the app",
+    "htmlBtnId":"i unique id for the novel buttons"
   }
 }
