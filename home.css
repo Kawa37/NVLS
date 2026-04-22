@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "jetbrains";
+  src: url("./JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf")
+    format("truetype");
+}
+
+body,
+.btnContainer {
+  font-family: "jetbrains", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* min-height: 100vh; */
+  background-color: #1e1e1e;
+  color: #d1d1d1;
+  font-weight: bold;
+  max-width: 90vw;
+  margin: auto;
+}
+
+button {
+  background-color: #d1d1d1;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 16px 20px;
+  cursor: pointer;
+  margin: 15px;
+  color: #1e1e1e;
+  font-weight: bold;
+  border: transparent;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap !important; /* Prevents text from wrapping to the next line */
+  max-width: 85vw;
+  gap: 6px;
+}
+
+#status {
+  color: #d1d1d1;
+  white-space: pre-line;
+}
+
+#title {
+  margin-top: 50px !important;
+  font-size: 36px !important;
+}
+
+.novel-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 1; /* This is allowed to disappear into dots */
+}
+
+.novel-number {
+  white-space: nowrap;
+  flex-shrink: 0 !important; /* This is NOT allowed to shrink/hide */
+  font-weight: bold;
+}
+.credit {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: start !important;
+  width: 90vw !important;
+  opacity: 0.8;
+}
